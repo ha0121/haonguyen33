@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,1000;1,1000&family=Plus+Jakarta+Sans:ital,wght@0,337;1,337&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+	--primary-color: #e50914;
+}
+ 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 400;
+  }
+
+
+
+.navbar2 {
+	background-color: #302f2f;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 4px 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	list-style-type: none;
+	margin: 0;
+	top: 0;
+	
+  }
+  
+.navbar2 .nav-links2 {
+	text-align: center; 
+  }
+
+
+.navbar2 .nav-links2 a {
+	color: rgb(255, 255, 255);
+	text-decoration: none; 
+	padding: 0 15px; 
+	position: relative;
+	text-align: center;
+	
+  }
+
+
+
+.navbar {
+	background-color: #000000;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 8px 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	list-style-type: none;
+	margin: 0;
+	/* position: -webkit-sticky; */
+	position: sticky;
+	top: 0;
+  }
+
+.navbar .logo {
+	height: 36px;
+	width: 36px;
+  }
+
+  
+.navbar .nav-links {
+	text-align: center; 
+  }
+
+
+.navbar .nav-links a {
+	color: rgb(255, 255, 255);
+	text-decoration: none; 
+	padding: 0 15px; 
+	position: relative;
+  }
+
+
+.navbar .nav-links a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	width: 100%;
+	border-bottom: 2px solid transparent; 
+	transition: border-color 0.3s ease; 
+  }
+
+
+.navbar .nav-links a:hover:after {
+	border-color: #ffe600; 
+  }
+
+body {
+	font-family: 'Arial' , sans-serif;
+	--webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999999;
+	text-align: center;
+}
+
+
+ul {
+	list-style: none;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h1, h2, h3, h4 {
+	color: #ffe600;
+	font-family: "Josefin Sans", sans-serif;
+	/* -webkit-text-stroke: 3px #000000; */
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+.showcase {
+	width: 100%;
+	height: 93vh;
+	position: left;
+	background: url('https://s3.vikings.com.vn/vk-assets/media/378/logo/fs6rIVGBrEiM6PVNSbeI_w.jpg') no-repeat center center/cover;
+	border-bottom: 8px solid #222;
+	text-indent: 5px;
+	
+}
+
+
+
+.enjoy-tv {
+	font-size: 15px;
+	text-align: left;
+	position: relative;
+	padding: 280px 10%;
+	padding-left: 100px;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+	background: url('https://www.vikingscyber.com/assets/images/cau-hinh.jpg') no-repeat center center/cover;
+	display: flex;
+	align-items: center;
+	border-bottom: 8px solid #222;
+	font-family: "Josefin Sans", sans-serif;
+	
+}
+.enjoy-tv h4{
+	font-size: 12px;
+	font-family: "Josefin Sans", sans-serif;
+	color: #ffe600;
+}
+
+.enjoy-tv h3{
+	font-size: 48px;
+	color: white;
+	font-style: normal;
+	font-weight: 1000;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.enjoy-tv p{
+	font-size: 28px;
+	color: #ffffff;
+	font-weight: 100;
+	font-family: "Josefin Sans", sans-serif;
+	
+}
+
+.enjoy-tv img {
+	width: 450px;
+}
+
+.Watch-offline {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	margin-bottom: 0;
+	padding-left: 230px;
+	background: var(--primary-color);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	border-bottom: 8px solid #222;
+}
+
+.Watch-offline img {
+	width: 450px;
+	margin-left: 20px;
+}
+
+.watch-everywhere {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 280px;
+	margin-bottom: 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;	
+	background: url('https://www.showmetech.com.br/wp-content/uploads//2023/04/imagem_2023-04-05_171218497.png.webp') no-repeat center center/cover;
+}
+
+.watch-everywhere img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.ask-question {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.ask-question h1 {
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.ask-question button {
+	display: center;
+	text-align: left;
+	background-color: #303030;
+	color: white;
+	height: 65px;
+	width: 700px;
+	font-size: 0.9rem;
+	padding: 0.3rem 0.5rem;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+.page-down {
+	border-top: 8px solid #222;
+	background-color: var(--primary-color);
+	font-size: 0.8rem;
+	margin-bottom: 1.5rem;
+	padding: 25px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 0.5rem;
+}
+
+
